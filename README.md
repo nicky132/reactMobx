@@ -99,3 +99,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### 另外两个mobx值得学习的经典例子
 https://github.com/baidu/amis
 https://github.com/mobxjs/mobx-state-tree
+### 注意，不能package.json库文件版本问题
+"mobx": "^5.13.0",
+"mobx-react": "^6.1.3"
+这两个不能用最新版，不然项目跑起来后，点击添加任务后视图数据不更新问题
