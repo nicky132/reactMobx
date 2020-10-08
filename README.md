@@ -67,7 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-1-下载并配置babel插件的两个plugin
+### 1-下载并配置babel插件的两个plugin
 "babel": {
     "plugins": [
       [
@@ -87,7 +87,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
       "react-app"
     ]
   }
-2-配置eslink中的parserOptions
+### 2-配置eslink中的parserOptions
 "eslintConfig": {
     "parserOptions": {
       "ecmaFeatures": {
@@ -96,3 +96,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
     },
     "extends": "react-app"
   }
+### 另外两个mobx值得学习的经典例子
+https://github.com/baidu/amis
+https://github.com/mobxjs/mobx-state-tree
