@@ -66,3 +66,33 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+1-下载并配置babel插件的两个plugin
+"babel": {
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ],
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ]
+    ],
+    "presets": [
+      "react-app"
+    ]
+  }
+2-配置eslink中的parserOptions
+"eslintConfig": {
+    "parserOptions": {
+      "ecmaFeatures": {
+        "legacyDecorators": true
+      }
+    },
+    "extends": "react-app"
+  }
