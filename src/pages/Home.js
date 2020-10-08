@@ -34,7 +34,7 @@ export default class Home extends Component {
         return (
             <div className='home'>
                 <h1>mobx</h1>
-                <div>{store.time}</div>
+                <div>{store.desc}</div>
                 <button onClick={(e)=>this.handleTodos(e,'add')}>添加一条任务</button>
                 <button onClick={(e)=>this.handleTodos(e,'delete')}>删除一条任务</button>
                 <button onClick={(e)=>this.handleTodos(e,'reset')}>任务重置</button>
